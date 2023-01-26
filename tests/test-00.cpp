@@ -29,9 +29,9 @@ TEST_CASE("Test 00 - "
 }
 
 TEST_CASE("Test 00 - "
-          "4. 0+0 = la tete a Toto.")
+          "4. 0+0 = toto.")
 {
-    const auto toto = 1;
+    const auto toto = 0;
     REQUIRE(0 + 0 == toto);
 }
 
