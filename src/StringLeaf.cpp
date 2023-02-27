@@ -9,5 +9,5 @@ std::string StringLeaf::print() const{
 }
 
 std::unique_ptr<StringLeaf> StringLeaf::make_ptr(std::string data){
-    return std::make_unique<StringLeaf>(data);
+    return std::make_unique<StringLeaf>(std::move(data));
 }

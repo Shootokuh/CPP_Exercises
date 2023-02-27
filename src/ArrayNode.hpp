@@ -13,7 +13,11 @@ class ArrayNode: public Leaf{
 
         static std::unique_ptr<ArrayNode> make_ptr();
 
-        int child_count(); 
+        int child_count() const; 
 
         void push_back(std::unique_ptr<Node> kind);
+
+        //size_t height() const override;
+
+        //size_t node_count() const override;
 };

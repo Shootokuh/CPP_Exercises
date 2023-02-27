@@ -18,4 +18,5 @@ class IntLeaf: public Leaf{
         int data() const{
             return _value;
         }
+
 };

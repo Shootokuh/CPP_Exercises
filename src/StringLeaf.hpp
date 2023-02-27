@@ -1,6 +1,7 @@
 #pragma once
 
 #include "Leaf.hpp"
+#include "Node.hpp"
 
 class StringLeaf: public Leaf{
     private :
@@ -13,5 +14,4 @@ class StringLeaf: public Leaf{
 
         std::string data() const;
         std::string print() const override;
-
 };
